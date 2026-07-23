@@ -8,7 +8,7 @@
 
 The Microsoft 365 Administration Lab is a hands-on project designed to simulate real-world Microsoft 365 administration tasks performed by IT Support Specialists and Junior System Administrators.
 
-This project demonstrates practical knowledge of Microsoft Entra ID, Exchange Online, Microsoft Teams, user and license management, Multi-Factor Authentication (MFA), and security configuration.
+This project demonstrates practical experience with Microsoft 365 administration, Microsoft Entra ID, Exchange Online, Microsoft Teams, user and license management, Multi-Factor Authentication (MFA), identity and access management, and Microsoft 365 security configuration.
 
 ---
 
@@ -16,24 +16,24 @@ This project demonstrates practical knowledge of Microsoft Entra ID, Exchange On
 
 - Create and manage Microsoft 365 users.
 - Configure Microsoft Entra ID.
-- Assign licenses and permissions.
+- Assign licenses and administrative roles.
 - Manage Microsoft Teams.
 - Configure Exchange Online.
 - Enable Multi-Factor Authentication (MFA).
-- Apply security policies.
+- Apply Microsoft 365 security policies.
 - Troubleshoot user access issues.
 
 ---
 
 ## Technologies Used
 
-- Microsoft 365
-- Microsoft Entra ID
+- Microsoft 365 Admin Center
+- Microsoft Entra Admin Center
 - Exchange Online
-- Microsoft Teams
+- Microsoft Teams Admin Center
 - Microsoft Defender
 - SharePoint Online
-- Microsoft Admin Center
+- Microsoft 365 Security Center
 - Git & GitHub
 
 ---
@@ -52,93 +52,135 @@ Microsoft-365-Administration-Lab/
 │   ├── Teams-Administration.md
 │   ├── Exchange-Online.md
 │   └── Security-Policies.md
+│
 ├── screenshots/
+│   ├── Microsoft-365-Admin-Center.png
+│   ├── Microsoft-Entra-Admin-Center.png
+│   ├── User-Management.png
+│   ├── Teams-Administration.png
+│   ├── Exchange-Online.png
+│   └── Security-Settings.png
+│
 └── diagrams/
 ```
 
 ---
 
-## Features
+# Features
 
-### User Management
+## User Management
 
-- Created and managed user accounts.
-- Reset passwords.
-- Assigned licenses and permissions.
-- Managed user roles.
+- Created and managed Microsoft 365 users.
+- Assigned Microsoft 365 licenses.
+- Reset user passwords.
+- Managed administrative roles.
+- Managed user lifecycle.
 
-### Microsoft Entra ID
+---
 
-- Configured users and groups.
-- Managed identity and access.
-- Applied administrative roles.
-- Configured authentication methods.
+## Microsoft Entra ID
 
-### Multi-Factor Authentication (MFA)
+- Created and managed users.
+- Managed security groups.
+- Configured identity settings.
+- Assigned administrative roles.
+- Managed authentication methods.
 
-- Enabled MFA for users.
+---
+
+## Multi-Factor Authentication (MFA)
+
+- Enabled MFA.
 - Configured authentication methods.
 - Improved account security.
+- Managed user verification methods.
 
-### Microsoft Teams Administration
+---
 
-- Created teams and channels.
-- Managed team members.
+## Microsoft Teams Administration
+
+- Created Teams.
+- Managed channels.
+- Added and removed members.
 - Configured collaboration settings.
 
-### Exchange Online
+---
+
+## Exchange Online
 
 - Managed mailboxes.
-- Configured email settings.
-- Managed user access.
-
-### Security Administration
-
-- Applied security policies.
-- Configured access controls.
-- Reviewed security recommendations.
+- Configured mail settings.
+- Managed user permissions.
+- Performed mailbox administration.
 
 ---
 
-## Skills Demonstrated
+## Security Administration
+
+- Configured Microsoft 365 security settings.
+- Applied security recommendations.
+- Managed access controls.
+- Reviewed security alerts.
+
+---
+
+# Skills Demonstrated
 
 - Microsoft 365 Administration
-- Microsoft Entra ID
-- Exchange Online Administration
+- Microsoft Entra ID Administration
+- Identity & Access Management
+- User & Group Management
 - Microsoft Teams Administration
-- User and License Management
-- Security Configuration
-- Identity and Access Management
+- Exchange Online Administration
+- Microsoft 365 Security
+- Multi-Factor Authentication (MFA)
+- License Management
 - Cloud Administration
-- Troubleshooting
 - Technical Documentation
+- Troubleshooting
 
 ---
 
-## Screenshots
+# Screenshots
 
-Add screenshots of:
+This repository includes screenshots demonstrating the completed Microsoft 365 administration tasks.
+
+The **screenshots** folder contains:
 
 - Microsoft 365 Admin Center
 - Microsoft Entra Admin Center
-- User management
-- Teams administration
+- User Management
+- Microsoft Teams Administration
 - Exchange Online
-- Security settings
+- Security Settings
 
 ---
 
-## Future Improvements
+# Documentation
 
-- Integrate Microsoft Defender.
-- Configure Conditional Access policies.
-- Create PowerShell automation scripts.
-- Expand SharePoint administration.
-- Implement advanced security features.
+Detailed documentation is available in the **docs** folder and includes:
+
+- Lab Overview
+- User Management
+- Microsoft Entra ID
+- MFA Configuration
+- Teams Administration
+- Exchange Online
+- Security Policies
 
 ---
 
-## Author
+# Future Improvements
+
+- Configure Conditional Access Policies
+- Implement Microsoft Defender for Endpoint
+- Automate administrative tasks using PowerShell
+- Expand SharePoint Online administration
+- Configure Microsoft Intune device management
+
+---
+
+# Author
 
 **Paballo Moipone Litabe**
 
@@ -147,6 +189,6 @@ Add screenshots of:
 
 ---
 
-## License
+# License
 
 This project is licensed under the MIT License.
